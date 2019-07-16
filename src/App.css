@@ -1,0 +1,74 @@
+/* Screen */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calcScreen{
+    background: #2d2829;
+    color: white;
+    width: 17rem;
+    padding: 1rem;
+    text-align: end;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+
+}
+/* Buttons*/
+.numberButton{
+    background: #0b3062;
+    color: white;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+.numberButtonCon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 13rem;
+}
+
+.specialButton{
+    background: #2061b0;
+    color: white;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+
+.specialButtonCon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 13rem;
+}
+
+.operatorButton{
+    background: #3db5e5;
+    color: white;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+
+.operatorButtonCon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 13rem;
+}
+
+/* Screen Background? */
+.calcContainer{
+    background: #89b2fd;
+    width: 23rem;
+    border: 1px solid #be4a4a;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+.calcButtons{
+    display: flex;
+}
