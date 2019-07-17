@@ -5,6 +5,8 @@ import Operators from "../ButtonComponents/OperatorButtons/Operators";
 import Logo from "../DisplayComponents/Logo";
 import Screen from "../DisplayComponents/Screen";
 
+
+
 const Display = () => {
   return (
     <div className="calcContainer">
@@ -15,7 +17,7 @@ const Display = () => {
           <Screen />
         </div>
         <div className="calcButtons">
-          <div> 
+          <div>
             <Specials />
             <Numbers className = "numberButton"/>
           </div>

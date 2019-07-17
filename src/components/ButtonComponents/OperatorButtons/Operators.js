@@ -16,7 +16,7 @@ const Operators = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
        {stOperator.map((digits, index) => (
-         <OperatorButton digits = {digits} index = {index}/>
+         <OperatorButton digits = {digits} key = {index}/>
        ))}
     </div>
   );

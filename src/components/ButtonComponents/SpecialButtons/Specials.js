@@ -17,7 +17,7 @@ const [stSpecials, setSpecials] = useState(specials);
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
        {stSpecials.map((digits, index) =>(
-         <SpecialButton digits = {digits} index = {index}/>
+         <SpecialButton digits = {digits} key = {index}/>
        ))}
     </div>
   );

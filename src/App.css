@@ -1,6 +1,6 @@
 /* Screen */
 *{
-    margin: 0;
+    margin: 1px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,7 +10,7 @@
     width: 17rem;
     padding: 1rem;
     text-align: end;
-    border-radius: 12px;
+    border-radius: 30px;
     margin-bottom: 1rem;
 
 }
@@ -23,9 +23,10 @@
 }
 .numberButtonCon{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 13rem;
+    width: 12rem;
+    margin: auto;
 }
 
 .specialButton{
@@ -50,25 +51,37 @@
 }
 
 .operatorButtonCon{
-    display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     width: 13rem;
+  
 }
 
 /* Screen Background? */
 .calcContainer{
     background: #89b2fd;
-    width: 23rem;
+    width: 19rem;
     border: 1px solid #be4a4a;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3rem;
+    padding: 0.7rem;
     margin: 0 auto;
 }
 
 .calcButtons{
     display: flex;
 }
+
+/* Direct Changes */
+
+.img-logo{
+    width: 80px;
+    margin-left: 15px;
+}
+.calulatorLogo{
+    margin-top: 1rem;
+}
+
+/* Edit 0 number Button */
+/* width 8rem,, borderradius 2rem */
